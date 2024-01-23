@@ -1,0 +1,68 @@
+body,
+html {
+	height: 100%;
+}
+
+body {
+	background-color: azure;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	width: 700px;
+	height: 300px;
+	border: 1px solid #ddd;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.door {
+	width: 200px;
+	height: 280px;
+	background-color: indianred;
+	display: flex;
+	align-items: center;
+}
+
+.handle {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: brown;
+	margin-left: 10px;
+}
+
+.selected {
+	background-color: orange;
+}
+
+.count {
+	width: 300px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: cadetblue;
+	box-shadow: 0 0 8px #ddd;
+	border-radius: 8px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.wins,
+.zeros {
+	width: 90px;
+	height: 90px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 55px;
+	color: blueviolet;
+	border-radius: 10px;
+}
